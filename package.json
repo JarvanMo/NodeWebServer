@@ -12,6 +12,10 @@
     ],
     "author": "JarvanMo",
     "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JarvanMo/NodeWebServer"
+    },
     "dependencies": {
         "babel-core": "6.21.0",
         "babel-polyfill": "6.20.0",
