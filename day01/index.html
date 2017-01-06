@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hello world</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#test-input').mousemove(function(e) {
+                $('#test-input').text('pageX = ' + e.pageX + ', pageY = ' + e.pageY);
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <form>
+        <input id="test-input" name="email" value="">
+        <select id="test-select" name="city">
+        <option value="BJ" selected>Beijing</option>
+        <option value="SH">Shanghai</option>
+        <option value="SZ">Shenzhen</option>
+    </select>
+        <textarea id="test-textarea">Hello</textarea>
+    </form>
+
+
+    <button type="submit" onclick="xx()">click</button>
+
+    <script type="text/javascript">
+        var input = $('#test-input');
+        // select = $('#test-select'),
+        // textarea = $('#test-textarea');
+        var select = $('#test-select');
+
+
+
+        function xx() {
+            setTimeout(() => {
+                select.val(); // 'BJ'
+                select.val('SH'); // 选择框已变为Shanghai
+                input.val();
+                input.val('abc@example.com');
+
+            }, 1000);
+
+        }
+    </script>
+
+
+
+    <form id="testForm">
+    </form>
+</body>
+
+</html>

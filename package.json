@@ -1,0 +1,22 @@
+{
+    "name": "webserver",
+    "version": "1.0.0",
+    "description": "Hello Node.js",
+    "main": "start.js",
+    "scripts": {
+        "start": "node  --use_strict start.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "JarvanMo",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "babel-core": "6.21.0",
+        "babel-polyfill": "6.20.0",
+        "babel-preset-es2017": "6.16.0",
+        "babel-preset-stage-3": "6.17.0",
+        "koa": "2.0.0"
+    }
+}
