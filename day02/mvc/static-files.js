@@ -38,5 +38,4 @@ function staticFiles(uri, dir) {
 }
 
 
-
 module.exports = staticFiles
