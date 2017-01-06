@@ -1,7 +1,13 @@
-var register = require('babel-core/register');
+/**
+ * use babel
+ * I dropped babel because the version of node.js I use is 7.4.0</br>
+ * after 7.1.0 we can use directly under harmony mode
+ */
 
-register({
-    presets: ['stage-3']
-});
+// var register = require('babel-core/register');
 
-require('./day02/app.js');
+// register({
+//     presets: ['stage-3']
+// });
+
+require('./day02/mvc/app.js');

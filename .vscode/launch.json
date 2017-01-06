@@ -11,7 +11,8 @@
             "program": "${workspaceRoot}/start.js",
             "cwd": "${workspaceRoot}",
             "runtimeArgs": [
-                "--use_strict"
+                "--use_strict",
+                "--harmony"
             ]
         },
         {
