@@ -6,6 +6,9 @@ const controller = require('./controller');
 
 const templating = require('./templating');
 
+const Sequelize = require('sequelize');
+const config =require('./config');
+
 const app = new Koa();
 
 const isProduction = process.env.NODE_ENV === 'production';
