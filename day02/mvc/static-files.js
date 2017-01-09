@@ -14,7 +14,7 @@ function staticFiles(uri, dir) {
 
         //rpath 
 
-        if (rpath.startWith(uri)) {
+        if (rpath.startsWith(uri)) {
 
             let fp = path.join(dir, rpath.substring(uri.length))
 

@@ -10,4 +10,4 @@
 //     presets: ['stage-3']
 // });
 
-require('./day02/mvc/app.js');
+require('./day03/app.js');
